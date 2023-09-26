@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsectoSaltador", "InsectoSaltador\InsectoSaltador.csproj", "{7BB8EEC1-C8B7-4B35-9CF4-81A04C57873D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BB8EEC1-C8B7-4B35-9CF4-81A04C57873D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB8EEC1-C8B7-4B35-9CF4-81A04C57873D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB8EEC1-C8B7-4B35-9CF4-81A04C57873D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB8EEC1-C8B7-4B35-9CF4-81A04C57873D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77C4574E-C752-4F45-8A7F-73930ECD4FF3}
+	EndGlobalSection
+EndGlobal
