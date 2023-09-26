@@ -1,0 +1,15 @@
+D:\11\Evolutivo\InsectoSaltador\InsectoSaltador\bin\Debug\net6.0\InsectoSaltador.exe
+D:\11\Evolutivo\InsectoSaltador\InsectoSaltador\bin\Debug\net6.0\InsectoSaltador.deps.json
+D:\11\Evolutivo\InsectoSaltador\InsectoSaltador\bin\Debug\net6.0\InsectoSaltador.runtimeconfig.json
+D:\11\Evolutivo\InsectoSaltador\InsectoSaltador\bin\Debug\net6.0\InsectoSaltador.dll
+D:\11\Evolutivo\InsectoSaltador\InsectoSaltador\bin\Debug\net6.0\InsectoSaltador.pdb
+D:\11\Evolutivo\InsectoSaltador\InsectoSaltador\obj\Debug\net6.0\InsectoSaltador.csproj.AssemblyReference.cache
+D:\11\Evolutivo\InsectoSaltador\InsectoSaltador\obj\Debug\net6.0\InsectoSaltador.GeneratedMSBuildEditorConfig.editorconfig
+D:\11\Evolutivo\InsectoSaltador\InsectoSaltador\obj\Debug\net6.0\InsectoSaltador.AssemblyInfoInputs.cache
+D:\11\Evolutivo\InsectoSaltador\InsectoSaltador\obj\Debug\net6.0\InsectoSaltador.AssemblyInfo.cs
+D:\11\Evolutivo\InsectoSaltador\InsectoSaltador\obj\Debug\net6.0\InsectoSaltador.csproj.CoreCompileInputs.cache
+D:\11\Evolutivo\InsectoSaltador\InsectoSaltador\obj\Debug\net6.0\InsectoSaltador.dll
+D:\11\Evolutivo\InsectoSaltador\InsectoSaltador\obj\Debug\net6.0\refint\InsectoSaltador.dll
+D:\11\Evolutivo\InsectoSaltador\InsectoSaltador\obj\Debug\net6.0\InsectoSaltador.pdb
+D:\11\Evolutivo\InsectoSaltador\InsectoSaltador\obj\Debug\net6.0\InsectoSaltador.genruntimeconfig.cache
+D:\11\Evolutivo\InsectoSaltador\InsectoSaltador\obj\Debug\net6.0\ref\InsectoSaltador.dll
