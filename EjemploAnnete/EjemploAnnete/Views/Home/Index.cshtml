@@ -1,0 +1,27 @@
+﻿@model List<Objeto1>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+@{
+    int fecha = 32;
+}
+
+<table>
+    <tr>
+        <td> Hola Annete</td>
+    </tr>
+    @foreach(Objeto1 obj in ViewBag.Objetos)
+    {
+        <tr>
+            <td>
+                @obj.Description
+            </td>
+            <td>
+                @obj.Altitude
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,5 +1,7 @@
 ﻿using InsectoSaltador;
 using System;
+using System.IO;
+
 class program {
     public static Random random = new Random();
     static void Main(string[] args)
@@ -121,7 +123,7 @@ class program {
 
     static Insecto Cruzar(Insecto padre1, Insecto padre2)
     {
-        // Obtenemos las características de los padres.
+        
         int patasPadre1 = padre1.Patas;
         int patasPadre2 = padre2.Patas;
         int cabezaPadre1 = padre1.cabeza;
@@ -131,20 +133,20 @@ class program {
         int masaPadre1 = padre1.Masa;
         int masaPadre2 = padre2.Masa;
 
-        // Realizamos el cruce de características de alguna manera, por ejemplo, intercambiando valores.
+       
         int patasHijo = (patasPadre1 + patasPadre2) / 2; // Promedio de patas de los padres.
         int cabezaHijo = (cabezaPadre1 + cabezaPadre2) / 2; // Promedio de cabeza de los padres.
         int longCabezaHijo = (longCabezaPadre1 + longCabezaPadre2) / 2; // Promedio de longitud de cabeza de los padres.
         int masaHijo = (masaPadre1 + masaPadre2) / 2; // Promedio de masa de los padres.
 
-        // Creamos un nuevo insecto (hijo) con las características resultantes y lo devolvemos.
-        Insecto hijo = new Insecto()
-        {
-            Patas = patasHijo,
-            cabeza = cabezaHijo,
-            longCabeza = longCabezaHijo,
-            Masa = masaHijo
-        };
+        //Creamos un nuevo insecto(hijo) con las características resultantes y lo devolvemos.
+       Insecto hijo = new Insecto()
+       {
+           Patas = patasHijo,
+           cabeza = cabezaHijo,
+           longCabeza = longCabezaHijo,
+           Masa = masaHijo
+       };
 
         return hijo;
     }
@@ -152,14 +154,13 @@ class program {
 
     static double FuncionDeAptitud(Insecto insecto)
     {
-        // La función de aptitud evalúa la altura de salto del insecto.
-        double alturaDeSalto = CalcularAlturaDeSalto(insecto);
+        double alturaDeSalto = insecto.Patas  * 0.5 + insecto.cabeza * 0.3 - insecto.longCabeza * 0.2 - insecto.Masa * 0.4;
 
-        // Calcula la diferencia entre la altura de salto y la altura objetivo (10 cm).
+        // Calcula la diferencia entre la altura de salto y la altura objetivo (50.0 cm).
         double diferencia = Math.Abs(alturaDeSalto - 50.0);
 
-        // Si la altura de salto es igual o mayor que 10 cm, la aptitud es máxima (0).
-        if (alturaDeSalto >= 50)
+        // Si la altura de salto es igual o mayor que 50.0 cm, la aptitud es máxima (0.0).
+        if (alturaDeSalto <= 0.0)
         {
             return 0.0;
         }
@@ -180,11 +181,10 @@ class program {
     }
     static Insecto GenerarInsectoAleatorio()
     {
-        // Genera valores aleatorios para las características del insecto
-        int patas = random.Next(1, 11);
+        int patas = random.Next(1, 4);
         int cabeza = random.Next(1, 11);
-        int longCabeza = random.Next(1, 11);
-        int masa = random.Next(1, 11);
+        int longCabeza = random.Next(1, 30);
+        int masa = random.Next(1, 100);
 
         return new Insecto(patas, cabeza, longCabeza, masa);
     }
